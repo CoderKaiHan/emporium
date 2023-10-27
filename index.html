@@ -6,6 +6,9 @@
     <title>Uncle Stickies' Notepad Emporium</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="code-here.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Lilita+One&family=Lobster&family=Mooli&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +20,7 @@
             <h2>Classic</h2>
             <div class="notepad-container">
                 <div id="classic">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    <p>Lorem ipsum dolor sit <span id="span-classic">amet</span>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
@@ -115,11 +118,11 @@
 
         <form>
             <h3> Sign up for our newsletter</h3>
-            <label for="name">Your name</label>
+            <label for="name"><span class="centered-text">Your name</span></label>
             <input type="text" name="name">
-            <label for="email">Your email</label>
-            <input type="email" name="">
-            <input type="submit" name="" value="sign me up!">
+            <label for="email"><span class="centered-text">Your email</span></label>
+            <input type="email" name="email">
+            <input id="submit-button" type="submit" name="submit" value="SIGN ME UP!">
         </form>
     </footer>
 </body>

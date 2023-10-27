@@ -98,3 +98,127 @@ footer {
 ::-webkit-scrollbar {
   display: none;
 }
+
+#classic{
+  padding:15px 10px 10px 10px;
+  text-align:justify;
+  font-weight:550;
+  font-size:1em;
+
+}
+
+#span-classic{
+  padding-left:50%;
+}
+
+#modern{
+  background-color: gold;
+  padding:18px;
+  font-weight:550;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif
+  box-shadow: 50px 50px 50px 0px black;
+
+}
+
+#impact{
+  border:15px double black;
+  background-color: rgb(144 238 144);
+  text-align:center;
+  padding:15px;
+  font-weight: 500;
+  font-family:Arial, Helvetica, sans-serif
+
+}
+
+#elise{
+  background-color:#fffaf0;
+  padding:30px;
+  font-family:lobster;
+  font-weight:100;
+  text-align:center;
+  /* box-shadow: 1px 1px 0px 2px #eed39d; */
+  border:6px groove #f3e6d5;
+  /* border-top:3px outset rgb(179, 176, 176);
+  border-left:3px outset rgb(179, 176, 176);
+  border-right:3px inset rgb(179, 176, 176);
+  border-bottom:3px inset rgb(179, 176, 176); */
+  
+
+}
+
+
+#one, #two{
+  display:inline-block;
+  border:10px ridge rgb(9, 216, 243);
+  text-align:center;
+  padding:15px 20px;
+  font-weight:bold;
+  margin-left:50px;
+  margin-top: 95px;
+  background-color: rgb(136, 248, 211);
+}
+
+#gaudi{
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 50px; 
+  border-bottom-left-radius: 50px; 
+  border-bottom-right-radius: 15px; 
+  background-color: rgb(251 160 122);
+  text-align: center;
+  padding:20px;
+  font-weight:bold;
+  font-family: Arial;
+  line-height: 20px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+
+form{
+  margin:0;
+  align-items: center;
+  text-align: center;
+  color:purple;
+  font-weight: bold;
+  padding:0px;
+}
+
+h3{
+  text-align: left;
+  color:black;
+  margin:0.5em;
+}
+
+label, input{
+  display:block;
+  text-align: center;
+  margin:0.5em auto;
+
+}
+
+/* input[name="name"]{
+  width:90%;
+  height:2em;
+  border:1px solid limegreen;
+} */
+
+/* input[name="email"]{ */
+input{
+  width:90%;
+  height:3em;
+  border:1px solid rgb(30, 156, 30);
+}
+
+input[type="submit"]{
+  background-color:#715067;
+  color:white;
+  font-weight:bold;
+
+}
+
+#submit-button{
+  height:55px;
+  border-style:none;
+  box-shadow:1px 1px 3px 1px black;
+
+}
